@@ -12,5 +12,5 @@ At 7 p.m. the project ideas where pitched and I joined Ayumi Bennett’s group S
 
 The experience was hectic and awesome and I recommend to anyone, no matter the level, to go to one of these events. It is a great way to learn and meet new people.
 
-![SnackTN Team]({{ site.url }}/assets/images/SnackTN.jpg)
+![SnackTN Team](/assets/images/SnackTN.jpg)
 The SnackTN Team

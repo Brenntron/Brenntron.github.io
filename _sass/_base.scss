@@ -150,9 +150,16 @@ pre {
 
 
 body {
+  background-color: #77c4d3;
 }
 
 .page-content .wrapper {
+  background-color: #f1f9fa;
+  padding: $spacing-unit;
+}
+
+.site-footer, .site-header {
+  background-color: #daede2;
 }
 
 
