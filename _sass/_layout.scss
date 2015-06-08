@@ -21,8 +21,10 @@
     &:visited {
         color: $grey-color-dark;
     }
+    @include media-query($on-palm) {
+      font-size: modular-scale(0);
+    }
 }
-
 .site-nav {
     float: right;
     line-height: 56px;
