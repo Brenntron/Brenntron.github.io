@@ -214,6 +214,7 @@
 
     h2 {
         font-size: 32px;
+        text-align: center;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -234,6 +235,12 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 500px;
     }
 }
 
