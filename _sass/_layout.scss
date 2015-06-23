@@ -237,7 +237,7 @@
         }
     }
 
-    img {
+    .snackPic {
       display: block;
       margin: 0 auto;
       width: 500px;
@@ -250,4 +250,13 @@
 .home {
   background-color: #f1f9fa;
   padding: 0;
+}
+
+/**
+ * About
+ */
+.gravatar {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }

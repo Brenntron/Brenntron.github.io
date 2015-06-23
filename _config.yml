@@ -4,7 +4,7 @@ email: brennanw22@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   My name is Brennan Willingham and I am an awesome web developer.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://brennanwillingham.com" # the base hostname & protocol for your site
 twitter_username: Brenntron
 github_username:  Brenntron
 
@@ -12,3 +12,9 @@ github_username:  Brenntron
 markdown: kramdown
 
 gems: [bourbon, neat, github-pages]
+
+author:
+  name: Brennan Willingham
+  email: brennanw22@gmail.com
+  github: brenntron
+  twitter: brenntron
