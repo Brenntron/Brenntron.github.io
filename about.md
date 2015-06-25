@@ -14,30 +14,31 @@ I can make a long list of programming languages I'm interested in, but the short
 
 ##Notable Project
 
-###[Bootlegger](www.github.com/brenntron/bootlegger)
+###[Bootlegger](https://www.github.com/brenntron/bootlegger)
 
 A Ruby API that lists breweries and there locations and the front end portion that uses the data.
 The front end portion has a map diplaying the locations.
 
-###[Linked List](github.com/brenntron/linked_list_cohort_huckleberry)
+###[Linked List](https://www.github.com/brenntron/linked_list_cohort_huckleberry)
 
 An implementation of linked lists in ruby.
 
-###[SnackTN](github.com/RJFryman/snack_tennessee)
+###[SnackTN](https://www.github.com/RJFryman/snack_tennessee)
 
 The project I worked on at Hack Tennessee 7 with Robert Fryman, Ayumi Bennett, Margaret Clinard, and several others from Nashville Software School.
 It is a website that lists producers local to Tennessee.
 
-###[The Graduates](github.com/brenntron/thegraduates)
+###[The Graduates](https://www.github.com/brenntron/thegraduates)
 
 My backend capstone and a social website for graduates from the Nashville Software School.
+[The Graduates on heroku](https://thegraduates.herokuapp.com)
 
 
-##Skills
+##Knowledge Portfolio
 
-Ruby | Javascript | Angular | Rails | Sqlite3 | Postgresql | Test Driven Development
-RSpec | MiniTest | Capybara | Mocha | Chai
+Ruby | Javascript | Angular | Rails | Sqlite3 | Postgresql | Test Driven Development |
+RSpec MiniTest | Capybara | Mocha | Chai
 ActiveRecord
-HTML5 | CSS3 | Markdown | HAML | Jade | JQuery | Bootstrap | Jekyll
+HTML5 | CSS3 | Markdown | HAML | Jade JQuery | Bootstrap | Jekyll
 Git | Github
 Heroku | Firebase | AWS
