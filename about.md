@@ -6,28 +6,38 @@ permalink: /about/
 
 <img src="https://s.gravatar.com/avatar/d65359ab27ec95d16c06c4d67b092e47?s=250" class="gravatar" alt="A photo of {{ author.name }}">
 
-Hi, I'm Brennan - a web developer with a passion for technology and emotional intelligence. I'm looking for a team that shares my passions and interests. Let's chat soon.
+Hi, I'm Brennan - a full-stack web developer in the Nashville area with emotional intelligence and a passion for technology. I have a taste for good bourbon and I am starting to get into woodworking.
 
 My contact info and Github link are in the footer. Feel free to contact me in way that is convenient for you.
 
-I can make a long list of programming languages I'm intersted in, but the short list is Ruby and JavaScript. I'm also currently exploring some functional languages like Clojure and Elixir.
+I can make a long list of programming languages I'm interested in, but the short list is Ruby and JavaScript. I'm also currently exploring some functional languages like Clojure, Haskell, and Elixir.
+
+##Notable Project
+
+###[Bootlegger](www.github.com/brenntron/bootlegger)
+
+A Ruby API that lists breweries and there locations and the front end portion that uses the data.
+The front end portion has a map diplaying the locations.
+
+###[Linked List](github.com/brenntron/linked_list_cohort_huckleberry)
+
+An implementation of linked lists in ruby.
+
+###[SnackTN](github.com/RJFryman/snack_tennessee)
+
+The project I worked on at Hack Tennessee 7 with Robert Fryman, Ayumi Bennett, Margaret Clinard, and several others from Nashville Software School.
+It is a website that lists producers local to Tennessee.
+
+###[The Graduates](github.com/brenntron/thegraduates)
+
+My backend capstone and a social website for graduates from the Nashville Software School.
+
 
 ##Skills
 
-####{ :languages => [Ruby, Javascript]
-
-####  :frameworks => [Angular, Rails],
-
-####  :database => [Sqlite3, Postgresql],
-
-####  :practices => [Test Driven Development],
-
-####  :testing => [RSpec, MiniTest,Capybara, Mocha, Chai],
-
-####  :ORMS => [ActiveRecord],
-
-####  :front_end => [HTML5, CSS3, Markdown, HAML, Jade, JQuery, Bootstrap, Jekyll], 
-
-####  :version_control => [Git, Github],
-
-####  :app_servers => [Heroku, Firebase, AWS] }
+Ruby | Javascript | Angular | Rails | Sqlite3 | Postgresql | Test Driven Development
+RSpec | MiniTest | Capybara | Mocha | Chai
+ActiveRecord
+HTML5 | CSS3 | Markdown | HAML | Jade | JQuery | Bootstrap | Jekyll
+Git | Github
+Heroku | Firebase | AWS
