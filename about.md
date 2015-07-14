@@ -36,9 +36,30 @@ My backend capstone and a social website for graduates from the Nashville Softwa
 
 ##Knowledge Portfolio
 
-Ruby | Javascript | Angular | Rails | Sqlite3 | Postgresql | Test Driven Development |
-RSpec MiniTest | Capybara | Mocha | Chai
-ActiveRecord
-HTML5 | CSS3 | Markdown | HAML | Jade JQuery | Bootstrap | Jekyll
-Git | Github
-Heroku | Firebase | AWS
+- Ruby
+- Javascript
+- Angular
+- Rails
+- Sqlite3
+- Postgresql
+- Test Driven Development
+- RSpec
+- MiniTest
+- Capybara
+- Mocha
+- Chai
+- ActiveRecord
+- HTML5
+- CSS3
+- Markdown
+- HAML
+- Jade
+- JQuery
+- Bootstrap
+- Jekyll
+- Git
+- Github
+- Heroku
+- Firebase
+- AWS
+- Proto-Kanban

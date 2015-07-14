@@ -24,6 +24,8 @@ GEM
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     ffi (1.9.8)
+    font-awesome-sass (4.3.2.1)
+      sass (~> 3.2)
     gemoji (2.1.0)
     github-pages (35)
       RedCloth (= 4.2.9)
@@ -131,5 +133,6 @@ PLATFORMS
 
 DEPENDENCIES
   bourbon
+  font-awesome-sass
   github-pages
   neat
