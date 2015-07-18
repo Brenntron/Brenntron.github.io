@@ -4,10 +4,6 @@ title: "End of Nashville Software School"
 date: 2015-06-25
 
 ---
-
-
-#End of Nashville Software School
-
 Friday June 26th, 2015 is the day I have been working towards for the
 past six months. NSS Cohort 8 demo day starts tomorrow at 11 a.m. and
 lasts until 1 p.m. We will show off our Back-end and most likely our

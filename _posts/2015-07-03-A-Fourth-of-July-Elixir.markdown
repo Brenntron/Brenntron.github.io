@@ -4,9 +4,6 @@ title: "A Fourth of July Elixir?"
 date: 2015-07-03
 
 ---
-
-#A Fourth of July Elixir?
-
 Ever since I saw Bryan Hunter's talk on Elixir earlier this year at the
 Nash.rb meetup I have had an intense desire to check it out but I held
 off on it to concentrate on Ruby and JavaScript. Now that I have
