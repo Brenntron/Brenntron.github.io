@@ -1,1 +1,1 @@
-This is my super awesome site... of awesomeness.
+This is my personal jekyll site.
