@@ -18,8 +18,8 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
-    color: $text-color;
     background-color: $background-color;
+    color: $text-color;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -93,11 +93,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $text-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $grey-color-light;
     }
 
     &:hover {
@@ -154,16 +154,16 @@ pre {
 
 
 body {
-  background-color: #77c4d3;
+  background-color: $background-color;
 }
 
 .page-content .wrapper {
-  background-color: #f1f9fa;
+  background-color: $background-color;
   padding: $spacing-unit;
 }
 
 .site-footer, .site-header {
-  background-color: #daede2;
+  background-color: $background-color;
 }
 
 

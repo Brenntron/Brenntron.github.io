@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 0px;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -248,7 +248,7 @@
  * Index
  */
 .home {
-  background-color: #f1f9fa;
+  background-color: $background-color;
   padding: 0;
 }
 
