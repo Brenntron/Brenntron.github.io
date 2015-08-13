@@ -12,7 +12,7 @@ My contact info and Github link are in the footer. Feel free to contact me in an
 
 I can make a long list of programming languages I'm interested in, but the short list is Ruby and JavaScript. I'm also currently exploring some functional languages like Elixir.
 
-##Knowledge Portfolio
+## Knowledge Portfolio
 
 - Ruby
 - Javascript

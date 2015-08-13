@@ -19,10 +19,10 @@
     margin-bottom: 0;
     float: left;
 
-    &,
     &:visited {
         color: $grey-color-dark;
     }
+
     @include media-query($on-palm) {
       font-size: modular-scale(0);
     }
