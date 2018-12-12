@@ -3,7 +3,7 @@
  */
 .site-header {
     border-top: 0px;
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px solid $grey-color-dark;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -18,10 +18,6 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &:visited {
-        color: $grey-color-dark;
-    }
 
     @include media-query($on-palm) {
       font-size: modular-scale(0);
@@ -96,7 +92,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $grey-color-dark;
     padding: $spacing-unit 0;
 }
 
@@ -109,6 +105,10 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+
+    .username, a {
+      color: #3d74b3;
+    }
 }
 
 .footer-col-wrapper {
@@ -188,6 +188,7 @@
 }
 
 .post-link {
+    color: #3d74b3;
     display: block;
     font-size: 24px;
 }
@@ -244,6 +245,12 @@
       margin: 0 auto;
       width: 500px;
     }
+}
+
+.rss-subscribe {
+  a {
+    color: #3d74b3;
+  }
 }
 
 /**
