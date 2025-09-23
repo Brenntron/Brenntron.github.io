@@ -1,0 +1,102 @@
+/* Macchiato Theme
+ *
+ * text: #cad3f5
+ * text-secondary: #8aadf4
+ * text-background: #a5adcb
+ * prompt: #ee99a0
+ * URLs: #f4dbd6
+ * selection: #8087a2
+ * background: #363a4f
+ * manpage-header: #c6a0f6
+ * */
+
+* {
+  background: #363a4f;
+  font-family: 'Geist Mono', monospace;
+  font-weight: 500;
+  color: #cad3f5;
+}
+
+body {
+  min-height: 95vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+h3 {
+  display: inline-block;
+  font-size: inherit;
+  padding: 0 0.5em;
+  margin-bottom: 0;
+  color: #c6a0f6;
+}
+
+a {
+  color: #f4dbd6;
+  text-decoration: none;
+}
+
+footer {
+  color: #a5adcb;
+  margin-top: auto;
+}
+
+.text-background {
+  color:#a5adcb;
+}
+
+.text-secondary {
+  color:#8aadf4;
+}
+
+.bluesky:hover {
+  color: #208bfe;
+}
+
+.github:hover {
+  color: #a6d189;
+}
+
+.cursor {
+  color: #f4dbd6;
+}
+
+.output {
+  width: 100%;
+  max-width: 80ch;
+  animation: fade 5s;
+}
+
+.typeme {
+  width: 24ch;
+  animation: typing 2s steps(24), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 10px solid #f4dbd6;
+}
+
+/* animation */
+
+@keyframes fade {
+  0% { opacity: 0}
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes typing {
+  0% { width: 0; }
+  100% { width: 24ch; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent;}
+}
+
+/* dynamic resizing */
+@media (min-width:600px) {
+  body {
+    font-size: 1.25rem;
+  }
+}

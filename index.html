@@ -1,23 +1,57 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Brenntron</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Noto+Emoji:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <div class="typeme">
+      <span class="text-secondary">brenntron@dev </span><span class="text-background">~ </span><span class="cursor">$ </span>man me
+    </div>
+    <section class='output'>
+      <ul class="links">
+        <li>
+          <a class='github' href='https://github.com/Brenntron' alt='github' target='_blank'>
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a class='bluesky' href='https://bsky.app/profile/Brenntron' alt='bluesky' target='_blank'>
+            Bluesky
+          </a>
+        </li>
+      </ul>
+      <p>
+        I’m Brennan - a full-stack web developer in the Greater Nashville area.
+      </p>
+      <p>
+        My goal is to have a positive impact on the world.
+      </p>
+      <div><span class='text-secondary'>brenntron@dev </span><span class='text-background'>~ </span><span class='cursor'>$ </span>cat interestes.md</div>
+      <h3>Interests</h3>
+        <ul>
+          <li>cyber security</li>
+          <li>dogs</li>
+          <li>kickboxing</li>
+          <li>mixology</li>
+          <li>open source tech</li>
+          <li>storytelling</li>
+          <li>table top role playing games</li>
+          <li>weightlifting</li>
+        </ul>
+      <div><span class='text-secondary'>brenntron@dev </span><span class='text-background'>~ </span><span class='cursor'>$ </span>cat contact.md</div>
+      <h3>Contact Info</h3>
+      <ul>
+        <li>Discord: Brenntron</li>
+        <li>Email: <a href='mailto:brennan.willingahm@gmail.com' alt='email'>brennan.willingham@gmail.com</a>
+      </ul>
+    </section>
+    <footer>
+      Styled with <a href='https://github.com/catppuccin' alt='catppuccin github' target='_blank'>Catppuccin (Macchiato)</a> and shamelessly stolen and tweaked from <a href='https://www.bashbunni.dev/' alt='bashbunni' target='_blank'>Bashbunni</a>.
+    </footer>
+  </body>
+</html>
