@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const chatForm = document.getElementById("chatForm");
   const chatInput = document.getElementById("chatInput");
   const chatBox = document.getElementById("chatBox");
-  const chatEndpoint = "http://localhost:8000/chat";
+  const chatEndpoint = "https://xfvibwpnk9.us-east-2.awsapprunner.com/chat";
   const typeme = document.querySelector('div.typeme');
   const output = document.querySelector('section.output')
 
