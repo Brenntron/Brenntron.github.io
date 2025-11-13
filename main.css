@@ -74,8 +74,8 @@ footer {
 }
 
 .typeme {
-  width: 25ch;
-  animation: typing 2s steps(25), blink .5s step-end infinite alternate;
+  width: 24ch;
+  animation: typing 2s steps(24), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 10px solid #f4dbd6;
@@ -91,7 +91,7 @@ footer {
 
 @keyframes typing {
   0% { width: 0; }
-  100% { width: 25ch; }
+  100% { width: 24ch; }
 }
 
 @keyframes blink {
