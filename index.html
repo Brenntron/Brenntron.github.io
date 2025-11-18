@@ -7,15 +7,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Noto+Emoji:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
+    <script src="./chat.js" defer></script>
   </head>
   <body>
     <div class="typeme">
-      <span class="text-secondary">brenntron@dev </span><span class="text-background">~ </span><span class="cursor">$ </span>whoami
+      <span class="text-secondary">brenntron@dev </span><span class="text-background">~ </span><span class="cursor">$ </span>me -h
     </div>
     <section class='output'>
       <ul class="links">
         <li>
-          <a class='bluesky' href='https://bsky.app/profile/Brenntron' alt='bluesky' target='_blank'>
+          <a class='bluesky' href='https://bsky.app/profile/brenntron.bsky.social' alt='bluesky' target='_blank'>
             Bluesky
           </a>
         </li>
@@ -36,31 +37,38 @@
       <p>
         I've primarily worked with JavaScript and Ruby on Rails, but I often try
         out different languages and frameworks, and I'm usually learning
-        something new. Currently, I'm learning C with a little bit of network
-        programming and NextJS.
+        something new. Currently, I'm learning agentic development in Python,
+        and pickcing up Go not long after. My goal is to have a positive impact
+        on the world. positive impact on the world.
       </p>
-      <p>
-        My goal is to have a positive impact on the world.
-      </p>
-      <div><span class='text-secondary'>brenntron@dev </span><span class='text-background'>~ </span><span class='cursor'>$ </span>cat interests.md</div>
+      <div class="commandline"><span class='text-secondary'>brenntron@dev</span><span class='text-background'>~</span><span class='cursor'>$</span>cat interests.md</div>
       <h3>Interests</h3>
         <ul>
-          <li>cybersecurity</li>
           <li>dogs</li>
           <li>kickboxing</li>
           <li>mixology</li>
           <li>open source tech</li>
           <li>storytelling</li>
           <li>table-top roleplaying games</li>
-          <li>weightlifting</li>
         </ul>
-      <div><span class='text-secondary'>brenntron@dev </span><span class='text-background'>~ </span><span class='cursor'>$ </span>cat contact.md</div>
+      <div class="commandline"><span class='text-secondary'>brenntron@dev</span><span class='text-background'>~</span><span class='cursor'>$</span>cat contact.md</div>
       <h3>Contact Info</h3>
       <ul>
         <li>Discord: Brenntron</li>
         <li>Email: <a href='mailto:brennan.willingahm@gmail.com' alt='email'>brennan.willingham@gmail.com</a>
         <li>Phone, Whatsapp, and Signal number: <a href="tel:+1(931)698-9629">+1 (931) 698-9629</a></li>
       </ul>
+      <section class="chat">
+        <div id="chatBox">
+        </div>
+        <form id="chatForm">
+          <span class='text-secondary'>brenntron@dev</span>
+          <span class='text-background'>~</span>
+          <span class='cursor'>$</span>
+          <input id="chatInput" type="text" placeholder="Ask me a question..." aria-label="Chat input" required>
+          <input type="submit" hidden />
+        </form>
+      </section>
       <footer>
         <p>Styled with <a href='https://github.com/catppuccin' alt='catppuccin github' target='_blank'>Catppuccin (Macchiato)</a></p>
         <p>Format and presentation shamelessly stolen and tweaked from <a href='https://www.bashbunni.dev/' alt='bashbunni' target='_blank'>Bashbunni</a>.</p>

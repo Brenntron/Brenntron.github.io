@@ -63,6 +63,11 @@ footer {
   color: #0a66c2;
 }
 
+.commandline {
+  display: flex;
+  gap: 10px;
+}
+
 .cursor {
   color: #f4dbd6;
 }
@@ -74,11 +79,40 @@ footer {
 }
 
 .typeme {
-  width: 24ch;
-  animation: typing 2s steps(24), blink .5s step-end infinite alternate;
+  width: 23ch;
+  animation: 2s typing steps(23);
   white-space: nowrap;
   overflow: hidden;
   border-right: 10px solid #f4dbd6;
+}
+
+#chatBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px 10px 10px 0;
+}
+
+#chatForm {
+  display: flex;
+  gap: 10px;
+}
+
+#chatInput {
+  border: none;
+  flex-grow: 1;
+  font-size: 1.25rem;
+}
+
+#chatInput::placeholder {
+  color: #cad3f5;
+}
+
+#chatInput:focus {
+  outline: none;
 }
 
 /* animation */
@@ -91,7 +125,7 @@ footer {
 
 @keyframes typing {
   0% { width: 0; }
-  100% { width: 24ch; }
+  100% { width: 23ch; }
 }
 
 @keyframes blink {
